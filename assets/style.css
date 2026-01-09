@@ -60,12 +60,13 @@ nav .logo img{
     max-width:140px;
 }
 nav .menu{
-    display: flex;
-    align-items: center;
-    gap:32px
+    
 }
 nav .menu ul{
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap:32px
 }
 nav .menu ul a{
     text-decoration: none;
@@ -244,4 +245,34 @@ font-weight: normal;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Footer Sections */
+footer{
+    background-color: #001931;
+    padding: 115.5px 120px 20.5px;
+}
+.social P{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.social ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+}
+.social ul li a{
+    color: #FFFFFF; 
+}
+.copyright {
+    border-top: 1px solid #ffffff24;
+    margin-top: 50px;
+}
+.copyright p{
+    color: #FAFAFA;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
 }
