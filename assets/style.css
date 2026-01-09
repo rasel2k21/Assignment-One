@@ -34,10 +34,12 @@
     color: #FFFFFF;
     font-weight: 500;
     padding: 12.5px 16px;
-
 }
-
-
+.btn-secondary:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #469165;
+}
 
 /* Main CSS */
 
@@ -100,6 +102,12 @@ background-size: cover;
     border-radius: 25px;
     padding: 3px 7px;
     cursor: pointer;
+}
+.banner-container .call-to-action:hover{
+    color: #FFFFFF;
+    background-color: #469165;
+    border: 1px solid #469165;
+    border-radius: 25px;
 }
 .banner-container h1{
 font-size: 72px;
@@ -166,6 +174,10 @@ font-weight: normal;
     border-radius: 10px;
     min-height: 300px;
 }
+.single-card:hover{
+    box-shadow: -10px 10px #00000007;
+   
+}
 .single-card h3{
     font-size: 24px;
     color: #001931;
@@ -190,6 +202,9 @@ font-weight: normal;
     justify-content: center;
 }
 
+.single-card i:hover{
+    background-color: #469165;
+}
 /* Solution Sections */
 #solutions{
 
@@ -238,7 +253,7 @@ font-weight: normal;
 }
 .solutions-content ul li i{
     color: #FFFFFF;
-    background-color: green;
+    background-color: #469165;
     border-radius: 50%;
     height: 16px;
     width: 16px;
@@ -246,7 +261,30 @@ font-weight: normal;
     align-items: center;
     justify-content: center;
 }
+/* Early Sections */
 
+#early-access{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.early-access-container{
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    width:85%;
+    padding: 115.5px 120px 179.5px;
+}
+.early-access-container .heading-sub-heading{
+    text-align: center;
+}
+.early-access-container .heading-sub-heading h2{
+    
+}
+.early-access-container .heading-sub-heading p{
+    
+}
+.ending-message{
+    margin-top: 15px;
+}
 /* Footer Sections */
 footer{
     background-color: #001931;
@@ -264,6 +302,9 @@ footer{
 }
 .social ul li a{
     color: #FFFFFF; 
+}
+.social ul li a:hover{
+    color: #469165; 
 }
 .copyright {
     border-top: 1px solid #ffffff24;
