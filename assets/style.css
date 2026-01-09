@@ -22,9 +22,20 @@
     background-color: transparent;
     border: 1px solid #469165;
     font-size: 16px;
-    color:#000000;
+    color:#469165;
 }
 
+.btn-secondary{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 12.5px 16px;
+
+}
 
 
 
@@ -67,5 +78,52 @@ nav .menu ul a:hover{
 }
 /* Banner */
 #banner{
-    
+background-image: url('../images/banner.png');
+background-repeat: no-repeat;
+min-height: 674px;
+background-size: cover;
+}
+.banner-container{
+    margin: 0 auto;
+    width:85%;
+    max-width: 1360px;
+    text-align: center;
+    padding: 115.5px 120px 179.5px;
+}
+.banner-container .call-to-action{
+    color: #469165;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 3px 7px;
+    cursor: pointer;
+}
+.banner-container h1{
+font-size: 72px;
+font-weight: bold;
+text-align: center;
+color: #FFFFFF;
+opacity: 90%;
+text-transform: capitalize;
+}
+.green-color{
+    color: #30B868;  
+}
+.banner-container p{
+font-size: 18px;
+font-weight: normal;
+line-height: 30px;
+color: #FFFFFF;
+width: 62%;
+margin: 0 auto;
+padding: 20px 0;
+font-weight: normal;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
 }
