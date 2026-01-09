@@ -1,0 +1,71 @@
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn-primary{
+    background-color: #469165;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 12.5px 16px;
+    border: 1px solid #469165;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border: 1px solid #469165;
+    font-size: 16px;
+    color:#000000;
+}
+
+
+
+
+/* Main CSS */
+
+/* Header */
+header{
+    height: 92px;
+}
+nav{
+    margin: 0 auto;
+    width:85%;
+    max-width: 1360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{ 
+    padding: 20px 0;
+}
+nav .logo img{ 
+    max-width:140px;
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+    gap:32px
+}
+nav .menu ul{
+    list-style-type: none;
+}
+nav .menu ul a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#000000;
+    font-weight: 500;
+}
+nav .menu ul a:hover{
+    color: #469165;
+}
+/* Banner */
+#banner{
+    
+}
