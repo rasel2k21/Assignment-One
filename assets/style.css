@@ -127,3 +127,64 @@ font-weight: normal;
     gap: 16px;
     justify-content: center;
 }
+
+/* Notes Sections */
+#notes{
+    background-color: #FBFBFB;
+}
+.notes-container{
+    margin: 0 auto;
+    padding: 115.5px 120px 179.5px;
+     text-align: center;
+}
+.heading-sub-heading h2{
+    color:#001931;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.heading-sub-heading p{
+    color:#627382;
+    font-size: 16px;
+    font-weight: normal;
+    margin:16px 0;
+}
+.card-info{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding:70px 131px;
+    justify-content: space-between;
+    width:85%;
+    margin: 0 auto;
+}
+.single-card {
+    background-color: #FFFFFF;
+    padding: 70px 10px 20px;
+    box-shadow: -10px 10px #3c3c3c03;
+    border-radius: 10px;
+    min-height: 300px;
+}
+.single-card h3{
+    font-size: 24px;
+    color: #001931;
+    font-weight: 600;
+    margin: 16px 0;
+}
+.single-card p{
+    font-size: 16px;
+    color: #627382;
+    font-weight: 400;
+}
+.single-card i{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background-color: #F95555;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
